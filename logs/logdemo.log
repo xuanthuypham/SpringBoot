@@ -1,0 +1,728 @@
+03/09/2018 01:23:06.610 INFO  [main] com.xuanthuy.springbootdemo.SpringBootDemoApplication - Starting SpringBootDemoApplication on DESKTOP-RL7FHQM with PID 14028 (H:\workspace\SpringBootDemo\target\classes started by xuant in H:\workspace\SpringBootDemo)
+03/09/2018 01:23:06.617 INFO  [main] com.xuanthuy.springbootdemo.SpringBootDemoApplication - No active profile set, falling back to default profiles: default
+03/09/2018 01:23:06.765 INFO  [main] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@778d1062: startup date [Mon Sep 03 01:23:06 ICT 2018]; root of context hierarchy
+03/09/2018 01:23:08.717 INFO  [main] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+03/09/2018 01:23:08.903 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$574c06fb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+03/09/2018 01:23:09.458 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+03/09/2018 01:23:09.484 INFO  [main] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+03/09/2018 01:23:09.484 INFO  [main] org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.32
+03/09/2018 01:23:09.489 INFO  [localhost-startStop-1] org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_171/bin/server;C:/Program Files/Java/jre1.8.0_171/bin;C:/Program Files/Java/jre1.8.0_171/lib/amd64;C:\Program Files\Java\jdk1.8.0_171\bin;H:\apache-maven-3.2.5\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\MySQL\MySQL Utilities 1.6\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Users\xuant\AppData\Local\Microsoft\WindowsApps;;C:\Windows\System32;;.]
+03/09/2018 01:23:09.617 INFO  [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+03/09/2018 01:23:09.617 INFO  [localhost-startStop-1] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2853 ms
+03/09/2018 01:23:10.039 INFO  [localhost-startStop-1] org.springframework.jdbc.datasource.DriverManagerDataSource - Loaded JDBC driver: com.mysql.jdbc.Driver
+03/09/2018 01:23:10.346 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+03/09/2018 01:23:10.347 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webMvcMetricsFilter' to: [/*]
+03/09/2018 01:23:10.347 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+03/09/2018 01:23:10.348 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+03/09/2018 01:23:10.348 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+03/09/2018 01:23:10.348 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*]
+03/09/2018 01:23:10.349 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpTraceFilter' to: [/*]
+03/09/2018 01:23:10.349 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+03/09/2018 01:23:10.771 INFO  [main] org.hibernate.Version - HHH000412: Hibernate Core {5.2.17.Final}
+03/09/2018 01:23:10.776 INFO  [main] org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+03/09/2018 01:23:11.037 INFO  [main] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+03/09/2018 01:23:11.389 INFO  [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+03/09/2018 01:23:11.773 WARN  [main] org.hibernate.mapping.RootClass - HHH000038: Composite-id class does not override equals(): com.xuanthuy.springbootdemo.entity.UserConnection
+03/09/2018 01:23:11.774 WARN  [main] org.hibernate.mapping.RootClass - HHH000039: Composite-id class does not override hashCode(): com.xuanthuy.springbootdemo.entity.UserConnection
+03/09/2018 01:23:12.938 INFO  [main] org.springframework.security.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@45843650, org.springframework.security.web.context.SecurityContextPersistenceFilter@12f279b5, org.springframework.security.web.header.HeaderWriterFilter@11dcd42c, org.springframework.security.web.authentication.logout.LogoutFilter@4130a648, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6b357eb6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5fcd1f0a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@28157173, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@66f5a02e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@72443081, org.springframework.security.web.session.SessionManagementFilter@4c302f38, org.springframework.security.web.access.ExceptionTranslationFilter@abad89c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@32091c14]
+03/09/2018 01:23:12.989 INFO  [main] org.springframework.orm.hibernate5.HibernateTransactionManager - Using DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@14563063] of Hibernate SessionFactory for HibernateTransactionManager
+03/09/2018 01:23:13.088 INFO  [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+03/09/2018 01:23:13.412 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@778d1062: startup date [Mon Sep 03 01:23:06 ICT 2018]; root of context hierarchy
+03/09/2018 01:23:13.473 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/logging]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.MainController.home()
+03/09/2018 01:23:13.476 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/],methods=[GET]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.MainController.showBankAccount(org.springframework.ui.Model)
+03/09/2018 01:23:13.476 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/login]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.MainController.staticResource(org.springframework.ui.Model)
+03/09/2018 01:23:13.477 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sendMoney],methods=[POST]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.MainController.processSendMoney(org.springframework.ui.Model,com.xuanthuy.springbootdemo.form.SendMoneyForm)
+03/09/2018 01:23:13.477 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/index]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.MainController.helloBotstrap(org.springframework.ui.Model)
+03/09/2018 01:23:13.478 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/register],methods=[POST]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.MainController.saveRegister(org.springframework.ui.Model,com.xuanthuy.springbootdemo.form.UserInfoForm,org.springframework.validation.BindingResult,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+03/09/2018 01:23:13.478 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/signin],methods=[GET]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.MainController.sigInPage(org.springframework.ui.Model)
+03/09/2018 01:23:13.478 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/register],methods=[GET]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.MainController.Register(org.springframework.ui.Model)
+03/09/2018 01:23:13.479 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sendMoney],methods=[GET]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.MainController.viewSendMoneyPage(org.springframework.ui.Model)
+03/09/2018 01:23:13.479 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/registersuccessful]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.MainController.successfulRegister()
+03/09/2018 01:23:13.482 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/security/userinfo],methods=[GET]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.SecurityController.userInfo(org.springframework.ui.Model,java.security.Principal)
+03/09/2018 01:23:13.483 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/security/login],methods=[GET]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.SecurityController.loginPage(org.springframework.ui.Model)
+03/09/2018 01:23:13.483 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/security/403],methods=[GET]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.SecurityController.accessDenied(org.springframework.ui.Model,java.security.Principal)
+03/09/2018 01:23:13.484 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/security/admin],methods=[GET]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.SecurityController.adminPage(org.springframework.ui.Model,java.security.Principal)
+03/09/2018 01:23:13.484 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/security/ || /security/welcome],methods=[GET]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.SecurityController.welcomePage(org.springframework.ui.Model)
+03/09/2018 01:23:13.485 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/security/logoutsuccessful],methods=[GET]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.SecurityController.logoutSuccessfulPage(org.springframework.ui.Model)
+03/09/2018 01:23:13.489 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/connect/{providerId}],methods=[POST]}" onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ConnectController.connect(java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+03/09/2018 01:23:13.489 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/connect/{providerId}/{providerUserId}],methods=[DELETE]}" onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ConnectController.removeConnection(java.lang.String,java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+03/09/2018 01:23:13.490 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/connect/{providerId}],methods=[GET]}" onto public java.lang.String org.springframework.social.connect.web.ConnectController.connectionStatus(java.lang.String,org.springframework.web.context.request.NativeWebRequest,org.springframework.ui.Model)
+03/09/2018 01:23:13.490 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/connect],methods=[GET]}" onto public java.lang.String org.springframework.social.connect.web.ConnectController.connectionStatus(org.springframework.web.context.request.NativeWebRequest,org.springframework.ui.Model)
+03/09/2018 01:23:13.491 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/connect/{providerId}],methods=[GET],params=[code]}" onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ConnectController.oauth2Callback(java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+03/09/2018 01:23:13.491 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/connect/{providerId}],methods=[GET],params=[oauth_token]}" onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ConnectController.oauth1Callback(java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+03/09/2018 01:23:13.491 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/connect/{providerId}],methods=[GET],params=[error]}" onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ConnectController.oauth2ErrorCallback(java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+03/09/2018 01:23:13.492 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/connect/{providerId}],methods=[DELETE]}" onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ConnectController.removeConnections(java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+03/09/2018 01:23:13.494 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+03/09/2018 01:23:13.495 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+03/09/2018 01:23:13.533 INFO  [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+03/09/2018 01:23:13.533 INFO  [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+03/09/2018 01:23:13.704 INFO  [main] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+03/09/2018 01:23:14.241 INFO  [main] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+03/09/2018 01:23:14.251 INFO  [main] org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+03/09/2018 01:23:14.252 INFO  [main] org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+03/09/2018 01:23:14.253 INFO  [main] org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping - Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+03/09/2018 01:23:14.308 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+03/09/2018 01:23:14.411 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+03/09/2018 01:23:14.416 INFO  [main] com.xuanthuy.springbootdemo.SpringBootDemoApplication - Started SpringBootDemoApplication in 8.452 seconds (JVM running for 9.71)
+03/09/2018 01:23:36.788 INFO  [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+03/09/2018 01:23:36.789 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+03/09/2018 01:23:36.805 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 16 ms
+03/09/2018 01:23:36.865 INFO  [http-nio-8080-exec-1] com.xuanthuy.springbootdemo.interceptor.LoginInterceptor - 
+===========LogInterception ============= 
+Request URL: http://localhost:8080/auth/google
+Time: 1535912616863
+03/09/2018 01:23:36.929 INFO  [http-nio-8080-exec-1] com.xuanthuy.springbootdemo.interceptor.LoginInterceptor - 
+===========LogInterception ============= 
+Request URL: http://localhost:8080/error
+Time: 1535912616880
+03/09/2018 01:23:46.285 INFO  [http-nio-8080-exec-2] com.xuanthuy.springbootdemo.interceptor.LoginInterceptor - 
+===========LogInterception ============= 
+Request URL: http://localhost:8080/login
+Time: 1535912625895
+03/09/2018 01:23:46.345 INFO  [http-nio-8080-exec-4] com.xuanthuy.springbootdemo.interceptor.LoginInterceptor - 
+===========LogInterception ============= 
+Request URL: http://localhost:8080/bootstrap_theme/vendors/css/vendor.bundle.base.css
+Time: 1535912626327
+03/09/2018 01:23:46.348 INFO  [http-nio-8080-exec-3] com.xuanthuy.springbootdemo.interceptor.LoginInterceptor - 
+===========LogInterception ============= 
+Request URL: http://localhost:8080/bootstrap_theme/vendors/iconfonts/mdi/css/materialdesignicons.min.css
+Time: 1535912626330
+03/09/2018 01:23:46.365 INFO  [http-nio-8080-exec-6] com.xuanthuy.springbootdemo.interceptor.LoginInterceptor - 
+===========LogInterception ============= 
+Request URL: http://localhost:8080/bootstrap_theme/images/logo.svg
+Time: 1535912626329
+03/09/2018 01:23:46.377 INFO  [http-nio-8080-exec-7] com.xuanthuy.springbootdemo.interceptor.LoginInterceptor - 
+===========LogInterception ============= 
+Request URL: http://localhost:8080/bootstrap_theme/vendors/js/vendor.bundle.base.js
+Time: 1535912626333
+03/09/2018 01:23:46.387 INFO  [http-nio-8080-exec-5] com.xuanthuy.springbootdemo.interceptor.LoginInterceptor - 
+===========LogInterception ============= 
+Request URL: http://localhost:8080/bootstrap_theme/css/style.css
+Time: 1535912626333
+03/09/2018 01:23:46.576 INFO  [http-nio-8080-exec-8] com.xuanthuy.springbootdemo.interceptor.LoginInterceptor - 
+===========LogInterception ============= 
+Request URL: http://localhost:8080/login
+Time: 1535912626574
+03/09/2018 01:23:46.632 INFO  [http-nio-8080-exec-9] com.xuanthuy.springbootdemo.interceptor.LoginInterceptor - 
+===========LogInterception ============= 
+Request URL: http://localhost:8080/bootstrap_theme/vendors/iconfonts/mdi/css/materialdesignicons.min.css
+Time: 1535912626623
+03/09/2018 01:23:46.636 INFO  [http-nio-8080-exec-10] com.xuanthuy.springbootdemo.interceptor.LoginInterceptor - 
+===========LogInterception ============= 
+Request URL: http://localhost:8080/bootstrap_theme/vendors/css/vendor.bundle.base.css
+Time: 1535912626631
+03/09/2018 01:23:46.651 INFO  [http-nio-8080-exec-2] com.xuanthuy.springbootdemo.interceptor.LoginInterceptor - 
+===========LogInterception ============= 
+Request URL: http://localhost:8080/bootstrap_theme/images/logo.svg
+Time: 1535912626647
+03/09/2018 01:23:46.666 INFO  [http-nio-8080-exec-1] com.xuanthuy.springbootdemo.interceptor.LoginInterceptor - 
+===========LogInterception ============= 
+Request URL: http://localhost:8080/bootstrap_theme/css/style.css
+Time: 1535912626647
+03/09/2018 01:23:46.689 INFO  [http-nio-8080-exec-4] com.xuanthuy.springbootdemo.interceptor.LoginInterceptor - 
+===========LogInterception ============= 
+Request URL: http://localhost:8080/bootstrap_theme/vendors/js/vendor.bundle.base.js
+Time: 1535912626679
+03/09/2018 01:23:46.745 INFO  [http-nio-8080-exec-3] com.xuanthuy.springbootdemo.interceptor.LoginInterceptor - 
+===========LogInterception ============= 
+Request URL: http://localhost:8080/bootstrap_theme/vendors/js/vendor.bundle.addons.js
+Time: 1535912626728
+03/09/2018 01:23:46.777 INFO  [http-nio-8080-exec-6] com.xuanthuy.springbootdemo.interceptor.LoginInterceptor - 
+===========LogInterception ============= 
+Request URL: http://localhost:8080/bootstrap_theme/js/off-canvas.js
+Time: 1535912626774
+03/09/2018 01:23:46.778 INFO  [http-nio-8080-exec-7] com.xuanthuy.springbootdemo.interceptor.LoginInterceptor - 
+===========LogInterception ============= 
+Request URL: http://localhost:8080/bootstrap_theme/js/misc.js
+Time: 1535912626775
+03/09/2018 01:23:46.906 INFO  [http-nio-8080-exec-9] com.xuanthuy.springbootdemo.interceptor.LoginInterceptor - 
+===========LogInterception ============= 
+Request URL: http://localhost:8080/bootstrap_theme/fonts/Ubuntu/Ubuntu-Light.woff2
+Time: 1535912626874
+03/09/2018 01:23:46.907 INFO  [http-nio-8080-exec-5] com.xuanthuy.springbootdemo.interceptor.LoginInterceptor - 
+===========LogInterception ============= 
+Request URL: http://localhost:8080/bootstrap_theme/fonts/Ubuntu/Ubuntu-Regular.woff2
+Time: 1535912626867
+03/09/2018 01:23:46.949 INFO  [http-nio-8080-exec-10] com.xuanthuy.springbootdemo.interceptor.LoginInterceptor - 
+===========LogInterception ============= 
+Request URL: http://localhost:8080/bootstrap_theme/fonts/Ubuntu/Ubuntu-Bold.woff2
+Time: 1535912626879
+03/09/2018 01:23:46.959 INFO  [http-nio-8080-exec-8] com.xuanthuy.springbootdemo.interceptor.LoginInterceptor - 
+===========LogInterception ============= 
+Request URL: http://localhost:8080/bootstrap_theme/fonts/Ubuntu/Ubuntu-Medium.woff2
+Time: 1535912626873
+03/09/2018 01:23:46.961 INFO  [http-nio-8080-exec-2] com.xuanthuy.springbootdemo.interceptor.LoginInterceptor - 
+===========LogInterception ============= 
+Request URL: http://localhost:8080/bootstrap_theme/vendors/iconfonts/mdi/fonts/materialdesignicons-webfont.woff2
+Time: 1535912626881
+03/09/2018 01:23:50.191 INFO  [http-nio-8080-exec-1] com.xuanthuy.springbootdemo.interceptor.LoginInterceptor - 
+===========LogInterception ============= 
+Request URL: http://localhost:8080/auth/google
+Time: 1535912630190
+03/09/2018 01:23:50.199 INFO  [http-nio-8080-exec-1] com.xuanthuy.springbootdemo.interceptor.LoginInterceptor - 
+===========LogInterception ============= 
+Request URL: http://localhost:8080/error
+Time: 1535912630194
+03/09/2018 01:40:24.075 INFO  [main] com.xuanthuy.springbootdemo.SpringBootDemoApplication - Starting SpringBootDemoApplication on DESKTOP-RL7FHQM with PID 6608 (H:\workspace\SpringBootDemo\target\classes started by xuant in H:\workspace\SpringBootDemo)
+03/09/2018 01:40:24.086 INFO  [main] com.xuanthuy.springbootdemo.SpringBootDemoApplication - No active profile set, falling back to default profiles: default
+03/09/2018 01:40:24.170 INFO  [main] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@48fa0f47: startup date [Mon Sep 03 01:40:24 ICT 2018]; root of context hierarchy
+03/09/2018 01:40:25.411 INFO  [main] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+03/09/2018 01:40:25.544 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$49abe741] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+03/09/2018 01:40:25.956 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+03/09/2018 01:40:25.979 INFO  [main] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+03/09/2018 01:40:25.979 INFO  [main] org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.32
+03/09/2018 01:40:25.984 INFO  [localhost-startStop-1] org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_171/bin/server;C:/Program Files/Java/jre1.8.0_171/bin;C:/Program Files/Java/jre1.8.0_171/lib/amd64;C:\Program Files\Java\jdk1.8.0_171\bin;H:\apache-maven-3.2.5\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\MySQL\MySQL Utilities 1.6\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Users\xuant\AppData\Local\Microsoft\WindowsApps;;C:\Windows\System32;;.]
+03/09/2018 01:40:26.096 INFO  [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+03/09/2018 01:40:26.097 INFO  [localhost-startStop-1] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1928 ms
+03/09/2018 01:40:26.462 INFO  [localhost-startStop-1] org.springframework.jdbc.datasource.DriverManagerDataSource - Loaded JDBC driver: com.mysql.jdbc.Driver
+03/09/2018 01:40:26.769 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+03/09/2018 01:40:26.769 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webMvcMetricsFilter' to: [/*]
+03/09/2018 01:40:26.770 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+03/09/2018 01:40:26.770 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+03/09/2018 01:40:26.770 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+03/09/2018 01:40:26.771 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*]
+03/09/2018 01:40:26.771 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpTraceFilter' to: [/*]
+03/09/2018 01:40:26.771 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+03/09/2018 01:40:26.992 INFO  [main] org.hibernate.Version - HHH000412: Hibernate Core {5.2.17.Final}
+03/09/2018 01:40:26.994 INFO  [main] org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+03/09/2018 01:40:27.183 INFO  [main] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+03/09/2018 01:40:27.424 INFO  [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+03/09/2018 01:40:27.640 WARN  [main] org.hibernate.mapping.RootClass - HHH000038: Composite-id class does not override equals(): com.xuanthuy.springbootdemo.entity.UserConnection
+03/09/2018 01:40:27.640 WARN  [main] org.hibernate.mapping.RootClass - HHH000039: Composite-id class does not override hashCode(): com.xuanthuy.springbootdemo.entity.UserConnection
+03/09/2018 01:40:28.326 INFO  [main] org.springframework.security.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@32091c14, org.springframework.security.web.context.SecurityContextPersistenceFilter@79980d8d, org.springframework.security.web.header.HeaderWriterFilter@604d23fa, org.springframework.security.web.authentication.logout.LogoutFilter@7fda2001, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@78307a56, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@68ab6ab0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@11dcd42c, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@b791a81, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7c40ffef, org.springframework.security.web.session.SessionManagementFilter@331ff3ac, org.springframework.security.web.access.ExceptionTranslationFilter@45117dd, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3bfae028]
+03/09/2018 01:40:28.366 INFO  [main] org.springframework.orm.hibernate5.HibernateTransactionManager - Using DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@26e79042] of Hibernate SessionFactory for HibernateTransactionManager
+03/09/2018 01:40:28.459 INFO  [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+03/09/2018 01:40:28.774 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@48fa0f47: startup date [Mon Sep 03 01:40:24 ICT 2018]; root of context hierarchy
+03/09/2018 01:40:28.848 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/logging]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.MainController.home()
+03/09/2018 01:40:28.849 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/registersuccessful]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.MainController.successfulRegister()
+03/09/2018 01:40:28.851 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sendMoney],methods=[GET]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.MainController.viewSendMoneyPage(org.springframework.ui.Model)
+03/09/2018 01:40:28.852 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/index]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.MainController.helloBotstrap(org.springframework.ui.Model)
+03/09/2018 01:40:28.852 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/register],methods=[GET]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.MainController.Register(org.springframework.ui.Model)
+03/09/2018 01:40:28.853 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/register],methods=[POST]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.MainController.saveRegister(org.springframework.ui.Model,com.xuanthuy.springbootdemo.form.UserInfoForm,org.springframework.validation.BindingResult,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+03/09/2018 01:40:28.853 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/],methods=[GET]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.MainController.showBankAccount(org.springframework.ui.Model)
+03/09/2018 01:40:28.853 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/login]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.MainController.staticResource(org.springframework.ui.Model)
+03/09/2018 01:40:28.854 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sendMoney],methods=[POST]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.MainController.processSendMoney(org.springframework.ui.Model,com.xuanthuy.springbootdemo.form.SendMoneyForm)
+03/09/2018 01:40:28.854 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/signin],methods=[GET]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.MainController.sigInPage(org.springframework.ui.Model)
+03/09/2018 01:40:28.858 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/security/userinfo],methods=[GET]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.SecurityController.userInfo(org.springframework.ui.Model,java.security.Principal)
+03/09/2018 01:40:28.858 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/security/logoutsuccessful],methods=[GET]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.SecurityController.logoutSuccessfulPage(org.springframework.ui.Model)
+03/09/2018 01:40:28.859 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/security/login],methods=[GET]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.SecurityController.loginPage(org.springframework.ui.Model)
+03/09/2018 01:40:28.859 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/security/403],methods=[GET]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.SecurityController.accessDenied(org.springframework.ui.Model,java.security.Principal)
+03/09/2018 01:40:28.859 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/security/admin],methods=[GET]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.SecurityController.adminPage(org.springframework.ui.Model,java.security.Principal)
+03/09/2018 01:40:28.860 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/security/ || /security/welcome],methods=[GET]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.SecurityController.welcomePage(org.springframework.ui.Model)
+03/09/2018 01:40:28.864 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/connect/{providerId}],methods=[POST]}" onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ConnectController.connect(java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+03/09/2018 01:40:28.864 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/connect/{providerId}],methods=[GET],params=[error]}" onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ConnectController.oauth2ErrorCallback(java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+03/09/2018 01:40:28.865 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/connect/{providerId}],methods=[DELETE]}" onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ConnectController.removeConnections(java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+03/09/2018 01:40:28.865 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/connect/{providerId}/{providerUserId}],methods=[DELETE]}" onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ConnectController.removeConnection(java.lang.String,java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+03/09/2018 01:40:28.865 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/connect],methods=[GET]}" onto public java.lang.String org.springframework.social.connect.web.ConnectController.connectionStatus(org.springframework.web.context.request.NativeWebRequest,org.springframework.ui.Model)
+03/09/2018 01:40:28.866 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/connect/{providerId}],methods=[GET]}" onto public java.lang.String org.springframework.social.connect.web.ConnectController.connectionStatus(java.lang.String,org.springframework.web.context.request.NativeWebRequest,org.springframework.ui.Model)
+03/09/2018 01:40:28.866 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/connect/{providerId}],methods=[GET],params=[oauth_token]}" onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ConnectController.oauth1Callback(java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+03/09/2018 01:40:28.866 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/connect/{providerId}],methods=[GET],params=[code]}" onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ConnectController.oauth2Callback(java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+03/09/2018 01:40:28.869 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+03/09/2018 01:40:28.869 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+03/09/2018 01:40:28.908 INFO  [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+03/09/2018 01:40:28.908 INFO  [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+03/09/2018 01:40:29.017 INFO  [main] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+03/09/2018 01:40:29.479 INFO  [main] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+03/09/2018 01:40:29.489 INFO  [main] org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+03/09/2018 01:40:29.490 INFO  [main] org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+03/09/2018 01:40:29.491 INFO  [main] org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping - Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+03/09/2018 01:40:29.557 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+03/09/2018 01:40:29.669 ERROR [main] org.apache.catalina.core.StandardService - Failed to start connector [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:256)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:198)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:300)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:762)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:398)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:330)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1258)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246)
+	at com.xuanthuy.springbootdemo.SpringBootDemoApplication.main(SpringBootDemoApplication.java:78)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1020)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 13 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1150)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:591)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1018)
+	... 14 common frames omitted
+03/09/2018 01:40:29.677 INFO  [main] org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+03/09/2018 01:41:04.399 INFO  [RMI TCP Connection(2)-127.0.0.1] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+03/09/2018 01:41:04.399 INFO  [RMI TCP Connection(2)-127.0.0.1] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@778d1062: startup date [Mon Sep 03 01:23:06 ICT 2018]; root of context hierarchy
+03/09/2018 01:41:16.900 INFO  [main] com.xuanthuy.springbootdemo.SpringBootDemoApplication - Starting SpringBootDemoApplication on DESKTOP-RL7FHQM with PID 104 (H:\workspace\SpringBootDemo\target\classes started by xuant in H:\workspace\SpringBootDemo)
+03/09/2018 01:41:16.904 INFO  [main] com.xuanthuy.springbootdemo.SpringBootDemoApplication - No active profile set, falling back to default profiles: default
+03/09/2018 01:41:16.971 INFO  [main] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@71b1176b: startup date [Mon Sep 03 01:41:16 ICT 2018]; root of context hierarchy
+03/09/2018 01:41:18.176 INFO  [main] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+03/09/2018 01:41:18.302 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7763675f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+03/09/2018 01:41:18.692 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+03/09/2018 01:41:18.713 INFO  [main] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+03/09/2018 01:41:18.714 INFO  [main] org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.32
+03/09/2018 01:41:18.720 INFO  [localhost-startStop-1] org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_171/bin/server;C:/Program Files/Java/jre1.8.0_171/bin;C:/Program Files/Java/jre1.8.0_171/lib/amd64;C:\Program Files\Java\jdk1.8.0_171\bin;H:\apache-maven-3.2.5\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\MySQL\MySQL Utilities 1.6\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Users\xuant\AppData\Local\Microsoft\WindowsApps;;C:\Windows\System32;;.]
+03/09/2018 01:41:18.830 INFO  [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+03/09/2018 01:41:18.831 INFO  [localhost-startStop-1] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1860 ms
+03/09/2018 01:41:19.191 INFO  [localhost-startStop-1] org.springframework.jdbc.datasource.DriverManagerDataSource - Loaded JDBC driver: com.mysql.jdbc.Driver
+03/09/2018 01:41:19.480 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+03/09/2018 01:41:19.480 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webMvcMetricsFilter' to: [/*]
+03/09/2018 01:41:19.481 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+03/09/2018 01:41:19.481 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+03/09/2018 01:41:19.481 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+03/09/2018 01:41:19.482 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*]
+03/09/2018 01:41:19.482 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpTraceFilter' to: [/*]
+03/09/2018 01:41:19.482 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+03/09/2018 01:41:19.691 INFO  [main] org.hibernate.Version - HHH000412: Hibernate Core {5.2.17.Final}
+03/09/2018 01:41:19.694 INFO  [main] org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+03/09/2018 01:41:19.881 INFO  [main] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+03/09/2018 01:41:20.113 INFO  [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+03/09/2018 01:41:20.318 WARN  [main] org.hibernate.mapping.RootClass - HHH000038: Composite-id class does not override equals(): com.xuanthuy.springbootdemo.entity.UserConnection
+03/09/2018 01:41:20.318 WARN  [main] org.hibernate.mapping.RootClass - HHH000039: Composite-id class does not override hashCode(): com.xuanthuy.springbootdemo.entity.UserConnection
+03/09/2018 01:41:20.987 INFO  [main] org.springframework.security.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@629a9f26, org.springframework.security.web.context.SecurityContextPersistenceFilter@604d23fa, org.springframework.security.web.header.HeaderWriterFilter@cfd1075, org.springframework.security.web.authentication.logout.LogoutFilter@2a47597, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7a1b8a46, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@331ff3ac, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3bc69ce9, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@78307a56, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@b791a81, org.springframework.security.web.session.SessionManagementFilter@7741771e, org.springframework.security.web.access.ExceptionTranslationFilter@22d7fd41, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@ac91282]
+03/09/2018 01:41:21.006 INFO  [main] org.springframework.orm.hibernate5.HibernateTransactionManager - Using DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@140c7acf] of Hibernate SessionFactory for HibernateTransactionManager
+03/09/2018 01:41:21.075 INFO  [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+03/09/2018 01:41:21.260 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@71b1176b: startup date [Mon Sep 03 01:41:16 ICT 2018]; root of context hierarchy
+03/09/2018 01:41:21.323 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/logging]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.MainController.home()
+03/09/2018 01:41:21.326 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sendMoney],methods=[GET]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.MainController.viewSendMoneyPage(org.springframework.ui.Model)
+03/09/2018 01:41:21.327 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/registersuccessful]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.MainController.successfulRegister()
+03/09/2018 01:41:21.328 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/],methods=[GET]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.MainController.showBankAccount(org.springframework.ui.Model)
+03/09/2018 01:41:21.329 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/login]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.MainController.staticResource(org.springframework.ui.Model)
+03/09/2018 01:41:21.330 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/index]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.MainController.helloBotstrap(org.springframework.ui.Model)
+03/09/2018 01:41:21.331 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/register],methods=[GET]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.MainController.Register(org.springframework.ui.Model)
+03/09/2018 01:41:21.332 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/signin],methods=[GET]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.MainController.sigInPage(org.springframework.ui.Model)
+03/09/2018 01:41:21.333 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sendMoney],methods=[POST]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.MainController.processSendMoney(org.springframework.ui.Model,com.xuanthuy.springbootdemo.form.SendMoneyForm)
+03/09/2018 01:41:21.334 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/register],methods=[POST]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.MainController.saveRegister(org.springframework.ui.Model,com.xuanthuy.springbootdemo.form.UserInfoForm,org.springframework.validation.BindingResult,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+03/09/2018 01:41:21.339 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/security/userinfo],methods=[GET]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.SecurityController.userInfo(org.springframework.ui.Model,java.security.Principal)
+03/09/2018 01:41:21.340 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/security/logoutsuccessful],methods=[GET]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.SecurityController.logoutSuccessfulPage(org.springframework.ui.Model)
+03/09/2018 01:41:21.340 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/security/403],methods=[GET]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.SecurityController.accessDenied(org.springframework.ui.Model,java.security.Principal)
+03/09/2018 01:41:21.341 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/security/login],methods=[GET]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.SecurityController.loginPage(org.springframework.ui.Model)
+03/09/2018 01:41:21.342 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/security/ || /security/welcome],methods=[GET]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.SecurityController.welcomePage(org.springframework.ui.Model)
+03/09/2018 01:41:21.343 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/security/admin],methods=[GET]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.SecurityController.adminPage(org.springframework.ui.Model,java.security.Principal)
+03/09/2018 01:41:21.349 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/connect/{providerId}],methods=[POST]}" onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ConnectController.connect(java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+03/09/2018 01:41:21.350 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/connect/{providerId}],methods=[GET],params=[code]}" onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ConnectController.oauth2Callback(java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+03/09/2018 01:41:21.351 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/connect/{providerId}/{providerUserId}],methods=[DELETE]}" onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ConnectController.removeConnection(java.lang.String,java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+03/09/2018 01:41:21.352 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/connect/{providerId}],methods=[GET],params=[oauth_token]}" onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ConnectController.oauth1Callback(java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+03/09/2018 01:41:21.353 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/connect/{providerId}],methods=[GET]}" onto public java.lang.String org.springframework.social.connect.web.ConnectController.connectionStatus(java.lang.String,org.springframework.web.context.request.NativeWebRequest,org.springframework.ui.Model)
+03/09/2018 01:41:21.354 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/connect],methods=[GET]}" onto public java.lang.String org.springframework.social.connect.web.ConnectController.connectionStatus(org.springframework.web.context.request.NativeWebRequest,org.springframework.ui.Model)
+03/09/2018 01:41:21.355 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/connect/{providerId}],methods=[DELETE]}" onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ConnectController.removeConnections(java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+03/09/2018 01:41:21.356 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/connect/{providerId}],methods=[GET],params=[error]}" onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ConnectController.oauth2ErrorCallback(java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+03/09/2018 01:41:21.363 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+03/09/2018 01:41:21.364 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+03/09/2018 01:41:21.421 INFO  [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+03/09/2018 01:41:21.421 INFO  [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+03/09/2018 01:41:21.600 INFO  [main] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+03/09/2018 01:41:22.079 INFO  [main] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+03/09/2018 01:41:22.089 INFO  [main] org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+03/09/2018 01:41:22.090 INFO  [main] org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+03/09/2018 01:41:22.091 INFO  [main] org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping - Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+03/09/2018 01:41:22.165 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+03/09/2018 01:41:22.214 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+03/09/2018 01:41:22.220 INFO  [main] com.xuanthuy.springbootdemo.SpringBootDemoApplication - Started SpringBootDemoApplication in 5.788 seconds (JVM running for 6.583)
+03/09/2018 01:41:32.181 INFO  [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+03/09/2018 01:41:32.182 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+03/09/2018 01:41:32.206 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 24 ms
+03/09/2018 01:41:32.279 INFO  [http-nio-8080-exec-1] com.xuanthuy.springbootdemo.interceptor.LoginInterceptor - 
+===========LogInterception ============= 
+Request URL: http://localhost:8080/auth/facebook
+Time: 1535913692275
+03/09/2018 01:41:32.381 INFO  [http-nio-8080-exec-1] com.xuanthuy.springbootdemo.interceptor.LoginInterceptor - 
+===========LogInterception ============= 
+Request URL: http://localhost:8080/error
+Time: 1535913692321
+03/09/2018 01:42:25.910 INFO  [RMI TCP Connection(2)-127.0.0.1] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+03/09/2018 01:42:25.910 INFO  [RMI TCP Connection(2)-127.0.0.1] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@71b1176b: startup date [Mon Sep 03 01:41:16 ICT 2018]; root of context hierarchy
+03/09/2018 01:42:32.861 INFO  [main] com.xuanthuy.springbootdemo.SpringBootDemoApplication - Starting SpringBootDemoApplication on DESKTOP-RL7FHQM with PID 12600 (H:\workspace\SpringBootDemo\target\classes started by xuant in H:\workspace\SpringBootDemo)
+03/09/2018 01:42:32.865 INFO  [main] com.xuanthuy.springbootdemo.SpringBootDemoApplication - No active profile set, falling back to default profiles: default
+03/09/2018 01:42:32.921 INFO  [main] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7f552bd3: startup date [Mon Sep 03 01:42:32 ICT 2018]; root of context hierarchy
+03/09/2018 01:42:34.241 INFO  [main] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+03/09/2018 01:42:34.366 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9d1da576] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+03/09/2018 01:42:34.768 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+03/09/2018 01:42:34.789 INFO  [main] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+03/09/2018 01:42:34.789 INFO  [main] org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.32
+03/09/2018 01:42:34.794 INFO  [localhost-startStop-1] org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_171/bin/server;C:/Program Files/Java/jre1.8.0_171/bin;C:/Program Files/Java/jre1.8.0_171/lib/amd64;C:\Program Files\Java\jdk1.8.0_171\bin;H:\apache-maven-3.2.5\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\MySQL\MySQL Utilities 1.6\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Users\xuant\AppData\Local\Microsoft\WindowsApps;;C:\Windows\System32;;.]
+03/09/2018 01:42:34.900 INFO  [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+03/09/2018 01:42:34.900 INFO  [localhost-startStop-1] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1979 ms
+03/09/2018 01:42:35.253 INFO  [localhost-startStop-1] org.springframework.jdbc.datasource.DriverManagerDataSource - Loaded JDBC driver: com.mysql.jdbc.Driver
+03/09/2018 01:42:35.553 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+03/09/2018 01:42:35.554 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webMvcMetricsFilter' to: [/*]
+03/09/2018 01:42:35.554 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+03/09/2018 01:42:35.554 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+03/09/2018 01:42:35.555 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+03/09/2018 01:42:35.555 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*]
+03/09/2018 01:42:35.556 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpTraceFilter' to: [/*]
+03/09/2018 01:42:35.556 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+03/09/2018 01:42:35.768 INFO  [main] org.hibernate.Version - HHH000412: Hibernate Core {5.2.17.Final}
+03/09/2018 01:42:35.771 INFO  [main] org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+03/09/2018 01:42:35.968 INFO  [main] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+03/09/2018 01:42:36.397 INFO  [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+03/09/2018 01:42:36.608 WARN  [main] org.hibernate.mapping.RootClass - HHH000038: Composite-id class does not override equals(): com.xuanthuy.springbootdemo.entity.UserConnection
+03/09/2018 01:42:36.608 WARN  [main] org.hibernate.mapping.RootClass - HHH000039: Composite-id class does not override hashCode(): com.xuanthuy.springbootdemo.entity.UserConnection
+03/09/2018 01:42:37.303 INFO  [main] org.springframework.security.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5f0bab7e, org.springframework.security.web.context.SecurityContextPersistenceFilter@6042d663, org.springframework.security.web.header.HeaderWriterFilter@7741d346, org.springframework.security.web.authentication.logout.LogoutFilter@67f63d26, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@298b64f7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3e33b52e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@ee8e7ff, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@2ba1209b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3a7b2e2, org.springframework.security.web.session.SessionManagementFilter@4130a648, org.springframework.security.web.access.ExceptionTranslationFilter@3fbe503c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@52c9d3d0]
+03/09/2018 01:42:37.323 INFO  [main] org.springframework.orm.hibernate5.HibernateTransactionManager - Using DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@5a666a13] of Hibernate SessionFactory for HibernateTransactionManager
+03/09/2018 01:42:37.406 INFO  [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+03/09/2018 01:42:37.604 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7f552bd3: startup date [Mon Sep 03 01:42:32 ICT 2018]; root of context hierarchy
+03/09/2018 01:42:37.665 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/logging]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.MainController.home()
+03/09/2018 01:42:37.667 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/register],methods=[GET]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.MainController.Register(org.springframework.ui.Model)
+03/09/2018 01:42:37.668 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/],methods=[GET]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.MainController.showBankAccount(org.springframework.ui.Model)
+03/09/2018 01:42:37.669 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sendMoney],methods=[POST]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.MainController.processSendMoney(org.springframework.ui.Model,com.xuanthuy.springbootdemo.form.SendMoneyForm)
+03/09/2018 01:42:37.669 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/signin],methods=[GET]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.MainController.sigInPage(org.springframework.ui.Model)
+03/09/2018 01:42:37.670 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/login]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.MainController.staticResource(org.springframework.ui.Model)
+03/09/2018 01:42:37.670 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/index]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.MainController.helloBotstrap(org.springframework.ui.Model)
+03/09/2018 01:42:37.670 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/register],methods=[POST]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.MainController.saveRegister(org.springframework.ui.Model,com.xuanthuy.springbootdemo.form.UserInfoForm,org.springframework.validation.BindingResult,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+03/09/2018 01:42:37.671 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sendMoney],methods=[GET]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.MainController.viewSendMoneyPage(org.springframework.ui.Model)
+03/09/2018 01:42:37.671 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/registersuccessful]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.MainController.successfulRegister()
+03/09/2018 01:42:37.674 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/security/userinfo],methods=[GET]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.SecurityController.userInfo(org.springframework.ui.Model,java.security.Principal)
+03/09/2018 01:42:37.675 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/security/login],methods=[GET]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.SecurityController.loginPage(org.springframework.ui.Model)
+03/09/2018 01:42:37.675 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/security/403],methods=[GET]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.SecurityController.accessDenied(org.springframework.ui.Model,java.security.Principal)
+03/09/2018 01:42:37.676 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/security/admin],methods=[GET]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.SecurityController.adminPage(org.springframework.ui.Model,java.security.Principal)
+03/09/2018 01:42:37.676 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/security/ || /security/welcome],methods=[GET]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.SecurityController.welcomePage(org.springframework.ui.Model)
+03/09/2018 01:42:37.676 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/security/logoutsuccessful],methods=[GET]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.SecurityController.logoutSuccessfulPage(org.springframework.ui.Model)
+03/09/2018 01:42:37.680 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/connect/{providerId}],methods=[POST]}" onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ConnectController.connect(java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+03/09/2018 01:42:37.681 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/connect/{providerId}/{providerUserId}],methods=[DELETE]}" onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ConnectController.removeConnection(java.lang.String,java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+03/09/2018 01:42:37.682 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/connect/{providerId}],methods=[GET],params=[code]}" onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ConnectController.oauth2Callback(java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+03/09/2018 01:42:37.682 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/connect],methods=[GET]}" onto public java.lang.String org.springframework.social.connect.web.ConnectController.connectionStatus(org.springframework.web.context.request.NativeWebRequest,org.springframework.ui.Model)
+03/09/2018 01:42:37.683 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/connect/{providerId}],methods=[GET]}" onto public java.lang.String org.springframework.social.connect.web.ConnectController.connectionStatus(java.lang.String,org.springframework.web.context.request.NativeWebRequest,org.springframework.ui.Model)
+03/09/2018 01:42:37.683 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/connect/{providerId}],methods=[GET],params=[oauth_token]}" onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ConnectController.oauth1Callback(java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+03/09/2018 01:42:37.684 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/connect/{providerId}],methods=[GET],params=[error]}" onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ConnectController.oauth2ErrorCallback(java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+03/09/2018 01:42:37.684 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/connect/{providerId}],methods=[DELETE]}" onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ConnectController.removeConnections(java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+03/09/2018 01:42:37.687 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+03/09/2018 01:42:37.688 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+03/09/2018 01:42:37.728 INFO  [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+03/09/2018 01:42:37.728 INFO  [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+03/09/2018 01:42:37.835 INFO  [main] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+03/09/2018 01:42:38.270 INFO  [main] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+03/09/2018 01:42:38.281 INFO  [main] org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+03/09/2018 01:42:38.282 INFO  [main] org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+03/09/2018 01:42:38.283 INFO  [main] org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping - Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+03/09/2018 01:42:38.337 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+03/09/2018 01:42:38.383 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+03/09/2018 01:42:38.389 INFO  [main] com.xuanthuy.springbootdemo.SpringBootDemoApplication - Started SpringBootDemoApplication in 6.052 seconds (JVM running for 6.668)
+03/09/2018 01:42:43.262 INFO  [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+03/09/2018 01:42:43.262 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+03/09/2018 01:42:43.286 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 22 ms
+03/09/2018 01:42:43.615 INFO  [http-nio-8080-exec-1] com.xuanthuy.springbootdemo.interceptor.LoginInterceptor - 
+===========LogInterception ============= 
+Request URL: http://localhost:8080/login
+Time: 1535913763327
+03/09/2018 01:42:43.727 INFO  [http-nio-8080-exec-3] com.xuanthuy.springbootdemo.interceptor.LoginInterceptor - 
+===========LogInterception ============= 
+Request URL: http://localhost:8080/bootstrap_theme/vendors/css/vendor.bundle.base.css
+Time: 1535913763709
+03/09/2018 01:42:43.729 INFO  [http-nio-8080-exec-2] com.xuanthuy.springbootdemo.interceptor.LoginInterceptor - 
+===========LogInterception ============= 
+Request URL: http://localhost:8080/bootstrap_theme/vendors/iconfonts/mdi/css/materialdesignicons.min.css
+Time: 1535913763708
+03/09/2018 01:42:43.731 INFO  [http-nio-8080-exec-5] com.xuanthuy.springbootdemo.interceptor.LoginInterceptor - 
+===========LogInterception ============= 
+Request URL: http://localhost:8080/bootstrap_theme/images/logo.svg
+Time: 1535913763710
+03/09/2018 01:42:43.735 INFO  [http-nio-8080-exec-6] com.xuanthuy.springbootdemo.interceptor.LoginInterceptor - 
+===========LogInterception ============= 
+Request URL: http://localhost:8080/bootstrap_theme/vendors/js/vendor.bundle.base.js
+Time: 1535913763720
+03/09/2018 01:42:43.751 INFO  [http-nio-8080-exec-4] com.xuanthuy.springbootdemo.interceptor.LoginInterceptor - 
+===========LogInterception ============= 
+Request URL: http://localhost:8080/bootstrap_theme/css/style.css
+Time: 1535913763706
+03/09/2018 01:42:44.090 INFO  [http-nio-8080-exec-7] com.xuanthuy.springbootdemo.interceptor.LoginInterceptor - 
+===========LogInterception ============= 
+Request URL: http://localhost:8080/login
+Time: 1535913764086
+03/09/2018 01:42:44.135 INFO  [http-nio-8080-exec-9] com.xuanthuy.springbootdemo.interceptor.LoginInterceptor - 
+===========LogInterception ============= 
+Request URL: http://localhost:8080/bootstrap_theme/vendors/css/vendor.bundle.base.css
+Time: 1535913764130
+03/09/2018 01:42:44.138 INFO  [http-nio-8080-exec-8] com.xuanthuy.springbootdemo.interceptor.LoginInterceptor - 
+===========LogInterception ============= 
+Request URL: http://localhost:8080/bootstrap_theme/vendors/iconfonts/mdi/css/materialdesignicons.min.css
+Time: 1535913764130
+03/09/2018 01:42:44.161 INFO  [http-nio-8080-exec-1] com.xuanthuy.springbootdemo.interceptor.LoginInterceptor - 
+===========LogInterception ============= 
+Request URL: http://localhost:8080/bootstrap_theme/images/logo.svg
+Time: 1535913764158
+03/09/2018 01:42:44.167 INFO  [http-nio-8080-exec-3] com.xuanthuy.springbootdemo.interceptor.LoginInterceptor - 
+===========LogInterception ============= 
+Request URL: http://localhost:8080/bootstrap_theme/vendors/js/vendor.bundle.base.js
+Time: 1535913764158
+03/09/2018 01:42:44.167 INFO  [http-nio-8080-exec-10] com.xuanthuy.springbootdemo.interceptor.LoginInterceptor - 
+===========LogInterception ============= 
+Request URL: http://localhost:8080/bootstrap_theme/css/style.css
+Time: 1535913764151
+03/09/2018 01:42:44.257 INFO  [http-nio-8080-exec-2] com.xuanthuy.springbootdemo.interceptor.LoginInterceptor - 
+===========LogInterception ============= 
+Request URL: http://localhost:8080/bootstrap_theme/js/off-canvas.js
+Time: 1535913764254
+03/09/2018 01:42:44.262 INFO  [http-nio-8080-exec-6] com.xuanthuy.springbootdemo.interceptor.LoginInterceptor - 
+===========LogInterception ============= 
+Request URL: http://localhost:8080/bootstrap_theme/js/misc.js
+Time: 1535913764257
+03/09/2018 01:42:44.268 INFO  [http-nio-8080-exec-5] com.xuanthuy.springbootdemo.interceptor.LoginInterceptor - 
+===========LogInterception ============= 
+Request URL: http://localhost:8080/bootstrap_theme/vendors/js/vendor.bundle.addons.js
+Time: 1535913764254
+03/09/2018 01:42:44.444 INFO  [http-nio-8080-exec-9] com.xuanthuy.springbootdemo.interceptor.LoginInterceptor - 
+===========LogInterception ============= 
+Request URL: http://localhost:8080/bootstrap_theme/fonts/Ubuntu/Ubuntu-Light.woff2
+Time: 1535913764420
+03/09/2018 01:42:44.445 INFO  [http-nio-8080-exec-1] com.xuanthuy.springbootdemo.interceptor.LoginInterceptor - 
+===========LogInterception ============= 
+Request URL: http://localhost:8080/bootstrap_theme/vendors/iconfonts/mdi/fonts/materialdesignicons-webfont.woff2
+Time: 1535913764422
+03/09/2018 01:42:44.457 INFO  [http-nio-8080-exec-8] com.xuanthuy.springbootdemo.interceptor.LoginInterceptor - 
+===========LogInterception ============= 
+Request URL: http://localhost:8080/bootstrap_theme/fonts/Ubuntu/Ubuntu-Bold.woff2
+Time: 1535913764421
+03/09/2018 01:42:44.459 INFO  [http-nio-8080-exec-4] com.xuanthuy.springbootdemo.interceptor.LoginInterceptor - 
+===========LogInterception ============= 
+Request URL: http://localhost:8080/bootstrap_theme/fonts/Ubuntu/Ubuntu-Regular.woff2
+Time: 1535913764420
+03/09/2018 01:42:44.462 INFO  [http-nio-8080-exec-7] com.xuanthuy.springbootdemo.interceptor.LoginInterceptor - 
+===========LogInterception ============= 
+Request URL: http://localhost:8080/bootstrap_theme/fonts/Ubuntu/Ubuntu-Medium.woff2
+Time: 1535913764423
+03/09/2018 01:42:47.499 INFO  [http-nio-8080-exec-3] com.xuanthuy.springbootdemo.interceptor.LoginInterceptor - 
+===========LogInterception ============= 
+Request URL: http://localhost:8080/auth/google
+Time: 1535913767498
+03/09/2018 01:42:47.530 INFO  [http-nio-8080-exec-3] com.xuanthuy.springbootdemo.interceptor.LoginInterceptor - 
+===========LogInterception ============= 
+Request URL: http://localhost:8080/error
+Time: 1535913767509
+03/09/2018 01:49:33.053 INFO  [RMI TCP Connection(2)-127.0.0.1] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+03/09/2018 01:49:33.054 INFO  [RMI TCP Connection(2)-127.0.0.1] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7f552bd3: startup date [Mon Sep 03 01:42:32 ICT 2018]; root of context hierarchy
+03/09/2018 01:57:59.984 INFO  [main] com.xuanthuy.springbootdemo.SpringBootDemoApplication - Starting SpringBootDemoApplication on DESKTOP-RL7FHQM with PID 9824 (H:\workspace\SpringBootDemo\target\classes started by xuant in H:\workspace\SpringBootDemo)
+03/09/2018 01:57:59.988 INFO  [main] com.xuanthuy.springbootdemo.SpringBootDemoApplication - No active profile set, falling back to default profiles: default
+03/09/2018 01:58:00.122 INFO  [main] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1ffe63b9: startup date [Mon Sep 03 01:58:00 ICT 2018]; root of context hierarchy
+03/09/2018 01:58:01.355 INFO  [main] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+03/09/2018 01:58:01.485 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fc70c475] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+03/09/2018 01:58:01.899 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+03/09/2018 01:58:01.922 INFO  [main] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+03/09/2018 01:58:01.922 INFO  [main] org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.32
+03/09/2018 01:58:01.927 INFO  [localhost-startStop-1] org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_171/bin/server;C:/Program Files/Java/jre1.8.0_171/bin;C:/Program Files/Java/jre1.8.0_171/lib/amd64;C:\Program Files\Java\jdk1.8.0_171\bin;H:\apache-maven-3.2.5\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\MySQL\MySQL Utilities 1.6\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Users\xuant\AppData\Local\Microsoft\WindowsApps;;C:\Windows\System32;;.]
+03/09/2018 01:58:02.041 INFO  [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+03/09/2018 01:58:02.042 INFO  [localhost-startStop-1] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1921 ms
+03/09/2018 01:58:02.403 INFO  [localhost-startStop-1] org.springframework.jdbc.datasource.DriverManagerDataSource - Loaded JDBC driver: com.mysql.jdbc.Driver
+03/09/2018 01:58:02.707 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+03/09/2018 01:58:02.707 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webMvcMetricsFilter' to: [/*]
+03/09/2018 01:58:02.708 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+03/09/2018 01:58:02.708 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+03/09/2018 01:58:02.708 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+03/09/2018 01:58:02.709 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*]
+03/09/2018 01:58:02.709 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpTraceFilter' to: [/*]
+03/09/2018 01:58:02.709 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+03/09/2018 01:58:02.945 INFO  [main] org.hibernate.Version - HHH000412: Hibernate Core {5.2.17.Final}
+03/09/2018 01:58:02.948 INFO  [main] org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+03/09/2018 01:58:03.149 INFO  [main] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+03/09/2018 01:58:03.425 INFO  [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+03/09/2018 01:58:03.662 WARN  [main] org.hibernate.mapping.RootClass - HHH000038: Composite-id class does not override equals(): com.xuanthuy.springbootdemo.entity.UserConnection
+03/09/2018 01:58:03.663 WARN  [main] org.hibernate.mapping.RootClass - HHH000039: Composite-id class does not override hashCode(): com.xuanthuy.springbootdemo.entity.UserConnection
+03/09/2018 01:58:04.503 INFO  [main] org.springframework.security.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1983b48a, org.springframework.security.web.context.SecurityContextPersistenceFilter@6cae2e4d, org.springframework.security.web.header.HeaderWriterFilter@115dcaea, org.springframework.security.web.authentication.logout.LogoutFilter@75aea2ba, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@43f03c23, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1cc8416a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@715a70e9, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@59fc6d05, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@629a9f26, org.springframework.security.web.session.SessionManagementFilter@45117dd, org.springframework.security.web.access.ExceptionTranslationFilter@667dcaad, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3d8d17a3]
+03/09/2018 01:58:04.524 INFO  [main] org.springframework.orm.hibernate5.HibernateTransactionManager - Using DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@140c7acf] of Hibernate SessionFactory for HibernateTransactionManager
+03/09/2018 01:58:04.610 INFO  [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+03/09/2018 01:58:04.822 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1ffe63b9: startup date [Mon Sep 03 01:58:00 ICT 2018]; root of context hierarchy
+03/09/2018 01:58:04.880 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/logging]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.MainController.home()
+03/09/2018 01:58:04.883 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/],methods=[GET]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.MainController.showBankAccount(org.springframework.ui.Model)
+03/09/2018 01:58:04.883 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/register],methods=[POST]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.MainController.saveRegister(org.springframework.ui.Model,com.xuanthuy.springbootdemo.form.UserInfoForm,org.springframework.validation.BindingResult,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+03/09/2018 01:58:04.884 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/register],methods=[GET]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.MainController.Register(org.springframework.ui.Model)
+03/09/2018 01:58:04.884 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sendMoney],methods=[POST]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.MainController.processSendMoney(org.springframework.ui.Model,com.xuanthuy.springbootdemo.form.SendMoneyForm)
+03/09/2018 01:58:04.885 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/signin],methods=[GET]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.MainController.sigInPage(org.springframework.ui.Model)
+03/09/2018 01:58:04.885 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/login]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.MainController.staticResource(org.springframework.ui.Model)
+03/09/2018 01:58:04.886 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/index]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.MainController.helloBotstrap(org.springframework.ui.Model)
+03/09/2018 01:58:04.886 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sendMoney],methods=[GET]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.MainController.viewSendMoneyPage(org.springframework.ui.Model)
+03/09/2018 01:58:04.886 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/registersuccessful]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.MainController.successfulRegister()
+03/09/2018 01:58:04.890 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/security/userinfo],methods=[GET]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.SecurityController.userInfo(org.springframework.ui.Model,java.security.Principal)
+03/09/2018 01:58:04.890 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/security/login],methods=[GET]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.SecurityController.loginPage(org.springframework.ui.Model)
+03/09/2018 01:58:04.891 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/security/ || /security/welcome],methods=[GET]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.SecurityController.welcomePage(org.springframework.ui.Model)
+03/09/2018 01:58:04.891 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/security/403],methods=[GET]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.SecurityController.accessDenied(org.springframework.ui.Model,java.security.Principal)
+03/09/2018 01:58:04.891 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/security/admin],methods=[GET]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.SecurityController.adminPage(org.springframework.ui.Model,java.security.Principal)
+03/09/2018 01:58:04.892 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/security/logoutsuccessful],methods=[GET]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.SecurityController.logoutSuccessfulPage(org.springframework.ui.Model)
+03/09/2018 01:58:04.896 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/connect/{providerId}],methods=[POST]}" onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ConnectController.connect(java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+03/09/2018 01:58:04.897 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/connect/{providerId}],methods=[DELETE]}" onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ConnectController.removeConnections(java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+03/09/2018 01:58:04.897 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/connect/{providerId}],methods=[GET],params=[error]}" onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ConnectController.oauth2ErrorCallback(java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+03/09/2018 01:58:04.898 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/connect/{providerId}/{providerUserId}],methods=[DELETE]}" onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ConnectController.removeConnection(java.lang.String,java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+03/09/2018 01:58:04.898 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/connect/{providerId}],methods=[GET],params=[oauth_token]}" onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ConnectController.oauth1Callback(java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+03/09/2018 01:58:04.898 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/connect],methods=[GET]}" onto public java.lang.String org.springframework.social.connect.web.ConnectController.connectionStatus(org.springframework.web.context.request.NativeWebRequest,org.springframework.ui.Model)
+03/09/2018 01:58:04.899 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/connect/{providerId}],methods=[GET]}" onto public java.lang.String org.springframework.social.connect.web.ConnectController.connectionStatus(java.lang.String,org.springframework.web.context.request.NativeWebRequest,org.springframework.ui.Model)
+03/09/2018 01:58:04.899 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/connect/{providerId}],methods=[GET],params=[code]}" onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ConnectController.oauth2Callback(java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+03/09/2018 01:58:04.901 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+03/09/2018 01:58:04.902 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+03/09/2018 01:58:04.934 INFO  [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+03/09/2018 01:58:04.935 INFO  [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+03/09/2018 01:58:05.055 INFO  [main] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+03/09/2018 01:58:05.477 INFO  [main] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+03/09/2018 01:58:05.488 INFO  [main] org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+03/09/2018 01:58:05.489 INFO  [main] org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+03/09/2018 01:58:05.490 INFO  [main] org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping - Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+03/09/2018 01:58:05.545 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+03/09/2018 01:58:05.593 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+03/09/2018 01:58:05.598 INFO  [main] com.xuanthuy.springbootdemo.SpringBootDemoApplication - Started SpringBootDemoApplication in 6.034 seconds (JVM running for 6.676)
+03/09/2018 01:59:06.726 INFO  [RMI TCP Connection(2)-127.0.0.1] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+03/09/2018 01:59:06.726 INFO  [RMI TCP Connection(2)-127.0.0.1] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1ffe63b9: startup date [Mon Sep 03 01:58:00 ICT 2018]; root of context hierarchy
+03/09/2018 02:05:00.003 INFO  [main] com.xuanthuy.springbootdemo.SpringBootDemoApplication - Starting SpringBootDemoApplication on DESKTOP-RL7FHQM with PID 4400 (H:\workspace\SpringBootDemo\target\classes started by xuant in H:\workspace\SpringBootDemo)
+03/09/2018 02:05:00.010 INFO  [main] com.xuanthuy.springbootdemo.SpringBootDemoApplication - No active profile set, falling back to default profiles: default
+03/09/2018 02:05:00.153 INFO  [main] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7ee955a8: startup date [Mon Sep 03 02:05:00 ICT 2018]; root of context hierarchy
+03/09/2018 02:05:01.551 INFO  [main] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+03/09/2018 02:05:01.685 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$70cc5e82] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+03/09/2018 02:05:02.106 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+03/09/2018 02:05:02.138 INFO  [main] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+03/09/2018 02:05:02.139 INFO  [main] org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.32
+03/09/2018 02:05:02.144 INFO  [localhost-startStop-1] org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_171/bin/server;C:/Program Files/Java/jre1.8.0_171/bin;C:/Program Files/Java/jre1.8.0_171/lib/amd64;C:\Program Files\Java\jdk1.8.0_171\bin;H:\apache-maven-3.2.5\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\MySQL\MySQL Utilities 1.6\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Users\xuant\AppData\Local\Microsoft\WindowsApps;;C:\Windows\System32;;.]
+03/09/2018 02:05:02.305 INFO  [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+03/09/2018 02:05:02.305 INFO  [localhost-startStop-1] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2152 ms
+03/09/2018 02:05:02.727 INFO  [localhost-startStop-1] org.springframework.jdbc.datasource.DriverManagerDataSource - Loaded JDBC driver: com.mysql.jdbc.Driver
+03/09/2018 02:05:03.043 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+03/09/2018 02:05:03.044 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webMvcMetricsFilter' to: [/*]
+03/09/2018 02:05:03.044 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+03/09/2018 02:05:03.044 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+03/09/2018 02:05:03.045 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+03/09/2018 02:05:03.045 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*]
+03/09/2018 02:05:03.046 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpTraceFilter' to: [/*]
+03/09/2018 02:05:03.046 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+03/09/2018 02:05:03.272 INFO  [main] org.hibernate.Version - HHH000412: Hibernate Core {5.2.17.Final}
+03/09/2018 02:05:03.275 INFO  [main] org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+03/09/2018 02:05:03.464 INFO  [main] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+03/09/2018 02:05:03.707 INFO  [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+03/09/2018 02:05:03.926 WARN  [main] org.hibernate.mapping.RootClass - HHH000038: Composite-id class does not override equals(): com.xuanthuy.springbootdemo.entity.UserConnection
+03/09/2018 02:05:03.927 WARN  [main] org.hibernate.mapping.RootClass - HHH000039: Composite-id class does not override hashCode(): com.xuanthuy.springbootdemo.entity.UserConnection
+03/09/2018 02:05:04.643 INFO  [main] org.springframework.security.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@78307a56, org.springframework.security.web.context.SecurityContextPersistenceFilter@45117dd, org.springframework.security.web.header.HeaderWriterFilter@22d7fd41, org.springframework.security.web.authentication.logout.LogoutFilter@11dcd42c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1775c4e7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@834e986, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@58324c9f, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@2921199d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@40d52be7, org.springframework.security.web.session.SessionManagementFilter@19fd43da, org.springframework.security.web.access.ExceptionTranslationFilter@4fc165f6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@74b86971]
+03/09/2018 02:05:04.662 INFO  [main] org.springframework.orm.hibernate5.HibernateTransactionManager - Using DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@68c39389] of Hibernate SessionFactory for HibernateTransactionManager
+03/09/2018 02:05:04.748 INFO  [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+03/09/2018 02:05:04.947 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7ee955a8: startup date [Mon Sep 03 02:05:00 ICT 2018]; root of context hierarchy
+03/09/2018 02:05:05.007 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/logging]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.MainController.home()
+03/09/2018 02:05:05.009 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sendMoney],methods=[GET]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.MainController.viewSendMoneyPage(org.springframework.ui.Model)
+03/09/2018 02:05:05.010 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/registersuccessful]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.MainController.successfulRegister()
+03/09/2018 02:05:05.010 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/register],methods=[GET]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.MainController.Register(org.springframework.ui.Model)
+03/09/2018 02:05:05.011 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/],methods=[GET]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.MainController.showBankAccount(org.springframework.ui.Model)
+03/09/2018 02:05:05.011 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/register],methods=[POST]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.MainController.saveRegister(org.springframework.ui.Model,com.xuanthuy.springbootdemo.form.UserInfoForm,org.springframework.validation.BindingResult,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+03/09/2018 02:05:05.012 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sendMoney],methods=[POST]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.MainController.processSendMoney(org.springframework.ui.Model,com.xuanthuy.springbootdemo.form.SendMoneyForm)
+03/09/2018 02:05:05.012 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/signin],methods=[GET]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.MainController.sigInPage(org.springframework.ui.Model)
+03/09/2018 02:05:05.012 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/login]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.MainController.staticResource(org.springframework.ui.Model)
+03/09/2018 02:05:05.013 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/index]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.MainController.helloBotstrap(org.springframework.ui.Model)
+03/09/2018 02:05:05.017 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/security/userinfo],methods=[GET]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.SecurityController.userInfo(org.springframework.ui.Model,java.security.Principal)
+03/09/2018 02:05:05.018 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/security/logoutsuccessful],methods=[GET]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.SecurityController.logoutSuccessfulPage(org.springframework.ui.Model)
+03/09/2018 02:05:05.018 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/security/login],methods=[GET]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.SecurityController.loginPage(org.springframework.ui.Model)
+03/09/2018 02:05:05.019 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/security/403],methods=[GET]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.SecurityController.accessDenied(org.springframework.ui.Model,java.security.Principal)
+03/09/2018 02:05:05.019 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/security/ || /security/welcome],methods=[GET]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.SecurityController.welcomePage(org.springframework.ui.Model)
+03/09/2018 02:05:05.020 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/security/admin],methods=[GET]}" onto public java.lang.String com.xuanthuy.springbootdemo.controller.SecurityController.adminPage(org.springframework.ui.Model,java.security.Principal)
+03/09/2018 02:05:05.024 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/connect/{providerId}],methods=[POST]}" onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ConnectController.connect(java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+03/09/2018 02:05:05.024 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/connect/{providerId}],methods=[DELETE]}" onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ConnectController.removeConnections(java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+03/09/2018 02:05:05.025 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/connect/{providerId}],methods=[GET],params=[error]}" onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ConnectController.oauth2ErrorCallback(java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+03/09/2018 02:05:05.025 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/connect/{providerId}],methods=[GET]}" onto public java.lang.String org.springframework.social.connect.web.ConnectController.connectionStatus(java.lang.String,org.springframework.web.context.request.NativeWebRequest,org.springframework.ui.Model)
+03/09/2018 02:05:05.025 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/connect],methods=[GET]}" onto public java.lang.String org.springframework.social.connect.web.ConnectController.connectionStatus(org.springframework.web.context.request.NativeWebRequest,org.springframework.ui.Model)
+03/09/2018 02:05:05.026 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/connect/{providerId}/{providerUserId}],methods=[DELETE]}" onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ConnectController.removeConnection(java.lang.String,java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+03/09/2018 02:05:05.026 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/connect/{providerId}],methods=[GET],params=[oauth_token]}" onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ConnectController.oauth1Callback(java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+03/09/2018 02:05:05.027 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/connect/{providerId}],methods=[GET],params=[code]}" onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ConnectController.oauth2Callback(java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+03/09/2018 02:05:05.029 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+03/09/2018 02:05:05.030 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+03/09/2018 02:05:05.065 INFO  [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+03/09/2018 02:05:05.066 INFO  [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+03/09/2018 02:05:05.178 INFO  [main] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+03/09/2018 02:05:05.589 INFO  [main] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+03/09/2018 02:05:05.600 INFO  [main] org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+03/09/2018 02:05:05.601 INFO  [main] org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+03/09/2018 02:05:05.602 INFO  [main] org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping - Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+03/09/2018 02:05:05.681 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+03/09/2018 02:05:05.730 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+03/09/2018 02:05:05.736 INFO  [main] com.xuanthuy.springbootdemo.SpringBootDemoApplication - Started SpringBootDemoApplication in 6.151 seconds (JVM running for 6.934)
+03/09/2018 02:05:22.177 INFO  [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+03/09/2018 02:05:22.178 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+03/09/2018 02:05:22.209 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 31 ms
+03/09/2018 02:05:22.548 INFO  [http-nio-8080-exec-1] com.xuanthuy.springbootdemo.interceptor.LoginInterceptor - 
+===========LogInterception ============= 
+Request URL: http://localhost:8080/login
+Time: 1535915122253
+03/09/2018 02:05:22.625 INFO  [http-nio-8080-exec-2] com.xuanthuy.springbootdemo.interceptor.LoginInterceptor - 
+===========LogInterception ============= 
+Request URL: http://localhost:8080/bootstrap_theme/vendors/iconfonts/mdi/css/materialdesignicons.min.css
+Time: 1535915122598
+03/09/2018 02:05:22.629 INFO  [http-nio-8080-exec-6] com.xuanthuy.springbootdemo.interceptor.LoginInterceptor - 
+===========LogInterception ============= 
+Request URL: http://localhost:8080/bootstrap_theme/vendors/js/vendor.bundle.base.js
+Time: 1535915122618
+03/09/2018 02:05:22.631 INFO  [http-nio-8080-exec-5] com.xuanthuy.springbootdemo.interceptor.LoginInterceptor - 
+===========LogInterception ============= 
+Request URL: http://localhost:8080/bootstrap_theme/images/logo.svg
+Time: 1535915122604
+03/09/2018 02:05:22.635 INFO  [http-nio-8080-exec-3] com.xuanthuy.springbootdemo.interceptor.LoginInterceptor - 
+===========LogInterception ============= 
+Request URL: http://localhost:8080/bootstrap_theme/vendors/css/vendor.bundle.base.css
+Time: 1535915122598
+03/09/2018 02:05:22.641 INFO  [http-nio-8080-exec-4] com.xuanthuy.springbootdemo.interceptor.LoginInterceptor - 
+===========LogInterception ============= 
+Request URL: http://localhost:8080/bootstrap_theme/css/style.css
+Time: 1535915122601
+03/09/2018 02:05:22.740 INFO  [http-nio-8080-exec-7] com.xuanthuy.springbootdemo.interceptor.LoginInterceptor - 
+===========LogInterception ============= 
+Request URL: http://localhost:8080/login
+Time: 1535915122732
+03/09/2018 02:05:22.873 INFO  [http-nio-8080-exec-8] com.xuanthuy.springbootdemo.interceptor.LoginInterceptor - 
+===========LogInterception ============= 
+Request URL: http://localhost:8080/bootstrap_theme/vendors/iconfonts/mdi/css/materialdesignicons.min.css
+Time: 1535915122860
+03/09/2018 02:05:22.880 INFO  [http-nio-8080-exec-9] com.xuanthuy.springbootdemo.interceptor.LoginInterceptor - 
+===========LogInterception ============= 
+Request URL: http://localhost:8080/bootstrap_theme/vendors/css/vendor.bundle.base.css
+Time: 1535915122872
+03/09/2018 02:05:22.894 INFO  [http-nio-8080-exec-1] com.xuanthuy.springbootdemo.interceptor.LoginInterceptor - 
+===========LogInterception ============= 
+Request URL: http://localhost:8080/bootstrap_theme/images/logo.svg
+Time: 1535915122890
+03/09/2018 02:05:22.904 INFO  [http-nio-8080-exec-2] com.xuanthuy.springbootdemo.interceptor.LoginInterceptor - 
+===========LogInterception ============= 
+Request URL: http://localhost:8080/bootstrap_theme/vendors/js/vendor.bundle.base.js
+Time: 1535915122891
+03/09/2018 02:05:22.910 INFO  [http-nio-8080-exec-10] com.xuanthuy.springbootdemo.interceptor.LoginInterceptor - 
+===========LogInterception ============= 
+Request URL: http://localhost:8080/bootstrap_theme/css/style.css
+Time: 1535915122876
+03/09/2018 02:05:22.977 INFO  [http-nio-8080-exec-6] com.xuanthuy.springbootdemo.interceptor.LoginInterceptor - 
+===========LogInterception ============= 
+Request URL: http://localhost:8080/bootstrap_theme/vendors/js/vendor.bundle.addons.js
+Time: 1535915122964
+03/09/2018 02:05:22.992 INFO  [http-nio-8080-exec-5] com.xuanthuy.springbootdemo.interceptor.LoginInterceptor - 
+===========LogInterception ============= 
+Request URL: http://localhost:8080/bootstrap_theme/js/off-canvas.js
+Time: 1535915122988
+03/09/2018 02:05:22.995 INFO  [http-nio-8080-exec-3] com.xuanthuy.springbootdemo.interceptor.LoginInterceptor - 
+===========LogInterception ============= 
+Request URL: http://localhost:8080/bootstrap_theme/js/misc.js
+Time: 1535915122991
+03/09/2018 02:05:23.130 INFO  [http-nio-8080-exec-8] com.xuanthuy.springbootdemo.interceptor.LoginInterceptor - 
+===========LogInterception ============= 
+Request URL: http://localhost:8080/bootstrap_theme/fonts/Ubuntu/Ubuntu-Light.woff2
+Time: 1535915123121
+03/09/2018 02:05:23.131 INFO  [http-nio-8080-exec-7] com.xuanthuy.springbootdemo.interceptor.LoginInterceptor - 
+===========LogInterception ============= 
+Request URL: http://localhost:8080/bootstrap_theme/fonts/Ubuntu/Ubuntu-Medium.woff2
+Time: 1535915123114
+03/09/2018 02:05:23.131 INFO  [http-nio-8080-exec-4] com.xuanthuy.springbootdemo.interceptor.LoginInterceptor - 
+===========LogInterception ============= 
+Request URL: http://localhost:8080/bootstrap_theme/fonts/Ubuntu/Ubuntu-Regular.woff2
+Time: 1535915123112
+03/09/2018 02:05:23.138 INFO  [http-nio-8080-exec-9] com.xuanthuy.springbootdemo.interceptor.LoginInterceptor - 
+===========LogInterception ============= 
+Request URL: http://localhost:8080/bootstrap_theme/vendors/iconfonts/mdi/fonts/materialdesignicons-webfont.woff2
+Time: 1535915123120
+03/09/2018 02:05:23.139 INFO  [http-nio-8080-exec-1] com.xuanthuy.springbootdemo.interceptor.LoginInterceptor - 
+===========LogInterception ============= 
+Request URL: http://localhost:8080/bootstrap_theme/fonts/Ubuntu/Ubuntu-Bold.woff2
+Time: 1535915123121
+03/09/2018 02:05:26.404 INFO  [http-nio-8080-exec-2] com.xuanthuy.springbootdemo.interceptor.LoginInterceptor - 
+===========LogInterception ============= 
+Request URL: http://localhost:8080/thuy/google
+Time: 1535915126402
+03/09/2018 02:05:26.437 INFO  [http-nio-8080-exec-2] com.xuanthuy.springbootdemo.interceptor.LoginInterceptor - 
+===========LogInterception ============= 
+Request URL: http://localhost:8080/error
+Time: 1535915126413
+03/09/2018 02:05:51.276 INFO  [RMI TCP Connection(2)-127.0.0.1] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+03/09/2018 02:05:51.276 INFO  [RMI TCP Connection(2)-127.0.0.1] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7ee955a8: startup date [Mon Sep 03 02:05:00 ICT 2018]; root of context hierarchy

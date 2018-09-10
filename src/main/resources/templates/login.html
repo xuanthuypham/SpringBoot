@@ -1,0 +1,127 @@
+<!--  <!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+   <head>
+      <meta charset="UTF-8">
+      <title th:utext="#{label.title}"></title>
+   </head>
+   <body>
+      <div style="text-align: right;padding:5px;margin:5px 0px;background:#ccc;">
+          <a th:href="@{/register?lang=vi}">Rgister</a>
+         &nbsp;|&nbsp;     	
+         <a th:href="@{/login?lang=en}">Login (English)</a>
+         &nbsp;|&nbsp;
+         <a th:href="@{/login?lang=fr}">Login (French)</a>
+         &nbsp;|&nbsp;
+         <a th:href="@{/login?lang=vi}">Login (Vietnamese)</a>
+      </div>
+      <form method="post" action="">
+         <table>
+            <tr>
+               <td>
+                  <strong th:utext="#{label.username}"></strong>
+               </td>
+               <td><input name="userName" /></td>
+            </tr>
+            <tr>
+               <td>
+                  <strong  th:utext="#{label.password}"></strong>
+               </td>
+               <td><input name="password" /></td>
+            </tr>
+            <tr>
+               <td colspan="2">
+                  <input type="submit" th:value="#{label.submit}" />
+               </td>
+            </tr>
+         </table>
+      </form>
+   </body>
+</html> -->
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Purple Admin</title>
+  <!-- plugins:css -->
+  <link rel="stylesheet" href="bootstrap_theme/vendors/iconfonts/mdi/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="bootstrap_theme/vendors/css/vendor.bundle.base.css">
+  <!-- endinject -->
+  <!-- plugin css for this page -->
+  <!-- End plugin css for this page -->
+  <!-- inject:css -->
+  <link rel="stylesheet" href="bootstrap_theme/css/style.css">
+  <!-- endinject -->
+  <link rel="shortcut icon" href="bootstrap_theme/images/favicon.png" />
+</head>
+
+<body>
+  <div class="container-scroller">
+    <div class="container-fluid page-body-wrapper full-page-wrapper">
+      <div class="content-wrapper d-flex align-items-center auth">
+        <div class="row w-100">
+          <div class="col-lg-4 mx-auto">
+            <div class="auth-form-light text-left p-5">
+              <div class="brand-logo">
+                <img src="bootstrap_theme/images/logo.svg">
+              </div>
+              <h4>Hello! let's get started</h4>
+              <h6 class="font-weight-light">Sign in to continue.</h6>
+              <form class="pt-3">
+                <div class="form-group">
+                  <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" placeholder="Username">
+                </div>
+                <div class="form-group">
+                  <input type="password" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="Password">
+                </div>
+                <div class="mt-3">
+                  <a class="btn btn-block btn-gradient-primary btn-lg font-weight-medium auth-form-btn" href="../../index.html" th:utext="#{label.submit}"></a>
+                </div>
+                <div class="my-2 d-flex justify-content-between align-items-center">
+                  <div class="form-check">
+                    <label class="form-check-label text-muted">
+                      <input type="checkbox" class="form-check-input" th:utext="#{label.rememberme}">
+                     
+                    </label>
+                  </div>
+                  <a href="#" class="auth-link text-black" th:utext="#{label.forgotpassword}"></a>
+                </div>
+                <div class="mb-2">
+                  <button type="button" class="btn btn-block btn-facebook auth-form-btn">
+                    <i class="mdi mdi-facebook mr-2"></i><b th:utext="#{label.connectusing.facebook}"></b>
+                  </button>
+                </div>
+                 <div class="mb-2">
+                 <a th:href="@{/thuy/google}">Google</a>
+                 <form th:action="@{/auth/google}" s>
+                  <button type="submit" class="btn btn-block btn-google auth-form-btn" >
+                    <i class="mdi mdi-google mr-2"></i><b th:utext="#{label.connectusing.google}"></b>
+                  </button>
+                  </form>
+                </div>
+                <div class="text-center mt-4 font-weight-light">
+                  Don't have an account? <a href="register.html" class="text-primary">Create</a>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- content-wrapper ends -->
+    </div>
+    <!-- page-body-wrapper ends -->
+  </div>
+  <!-- container-scroller -->
+  <!-- plugins:js -->
+  <script src="bootstrap_theme/vendors/js/vendor.bundle.base.js"></script>
+  <script src="bootstrap_theme/vendors/js/vendor.bundle.addons.js"></script>
+  <!-- endinject -->
+  <!-- inject:js -->
+  <script src="bootstrap_theme/js/off-canvas.js"></script>
+  <script src="bootstrap_theme/js/misc.js"></script>
+  <!-- endinject -->
+</body>
+
+</html>
